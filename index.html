@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foodie Spot</title>
+</head>
+<body>
+
+  <header>
+    <h1>JTGeats</h1>
+    <div id="cart-count">🛒Cart: <span id="cart-items">0</span>
+    <div id="cart-dropdown">
+      <div id="cart-list">No items</div></div>
+    </div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <ul>
+        <li><a href ="#">Home</a></li>
+        <li><a href ="#">About</a></li>
+        <li><a href ="#">Menu</a></li>
+        <li><a href ="#">Blog</a></li>
+        <li><a href ="#">Contact</a></li>
+    </ul>
+    <h2>Authentic Home Food in India</h2>
+    <p>JTGeats is a courier service in which authentic home cook food is delivered to a customer.</p>
+
+  
+</style>
+
+<form action="/search" method="get">
+  <input type="search" name="q" class="search-input" placeholder="Search…" aria-label="search">
+</form>
+
+
+  </header>
+
+  <main class="menu">
+    <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹299</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 1200 views</p>
+    </div>
+
+    <div class="menu-item" onclick="openModal('Tandoori Chicken', '₹349', 'Spicy grilled tandoori chicken with herbs.', 'https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg', 4.7, 980)">
+      <img src="https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg" alt="Tandoori Chicken">
+      <h3>Tandoori Chicken</h3>
+      <p class="price">₹349</p>
+      <p class="rating">⭐ 4.7</p>
+      <p class="views">👁 980 views</p>
+    </div>
+
+    <div class="menu-item" onclick="openModal('Mushroom Delight', '₹199', 'Sautéed mushrooms in creamy garlic sauce.', 'https://www.skinnytaste.com/wp-content/uploads/2022/11/Garlic-Butter-Mushrooms-8.jpg', 4.2, 750)">
+      <img src="https://www.skinnytaste.com/wp-content/uploads/2022/11/Garlic-Butter-Mushrooms-8.jpg" alt="Mushroom">
+      <h3>Mushroom Delight</h3>
+      <p class="price">₹199</p>
+      <p class="rating">⭐ 4.2</p>
+      <p class="views">👁 750 views</p>
+    </div>
+
+     <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹299</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 2500 views</p>
+    </div>
+
+     <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹129</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 1700 views</p>
+    </div>
+
+     <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹249</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 1500 views</p>
+    </div>
+
+     <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹349</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 1000 views</p>
+    </div>
+
+     <div class="menu-item" onclick="openModal('Pizza', '₹299', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+      <h3>Pizza</h3>
+      <p class="price">₹399</p>
+      <p class="rating">⭐ 4.5</p>
+      <p class="views">👁 1200 views</p>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <img id="modal-img" src="" alt="">
+      <h3 id="modal-title"></h3>
+      <p id="modal-price"></p>
+      <p id="modal-desc"></p>
+      <p id="modal-rating"></p>
+      <p id="modal-views"></p>
+      <button class="add-to-cart-btn" onclick="addToCart()">Add to Cart</button>
+    </div>
+  </div>
+
+  <section class="section-title">Popular Items</section>
+
+<div class="items">
+  <div class="card" onclick="openModal('Pizza', '₹190', 'Delicious cheesy pizza with fresh toppings.', 'https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg', 4.5, 1200)">
+    <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Pizza">
+    <p>Home made pizza</p>
+    <p class="price">₹190</p>
+    <p class="rating">⭐ 4.7 (50-79 min)</p>
+    <div class="counter">
+      <button onclick="decrement(this)">-</button>
+      <span>1</span>
+      <button onclick="increment(this)">+</button>
+    </div>
+  </div>
+  <div class="card" onclick="openModal('Pizza', '₹184', 'Delicious Tandoori Chicken with fresh spicey.', 'https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg', 4.5, 1200)">
+    <img src="https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg" alt="Tandoori">
+    <p>Tandoori Chicken</p>
+    <p class="price">₹184</p>
+    <p class="rating">⭐ 4.3 (15-29 min)</p>
+    <div class="counter">
+      <button onclick="decrement(this)">-</button>
+      <span>1</span>
+      <button onclick="increment(this)">+</button>
+    </div>
+  </div>
+  <div class="card" onclick="openModal('Pizza', '₹116', 'Delicious chili chicken with fresh herbs.', 'https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg', 4.5, 1200)">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/chilli-chicken-recipe-500x500.jpg" alt="Chilli Chicken">
+    <p>Chilli Chicken</p>
+    <p class="price">₹116</p>
+    <p class="rating">⭐ 4.1 (30-40 min)</p>
+    <div class="counter">
+      <button onclick="decrement(this)">-</button>
+      <span>1</span>
+      <button onclick="increment(this)">+</button>
+    </div>
+  </div>
+</div>
+
+<button class="request-button">Request a Dish</button>
+
+<section class="video-section">
+  <h2>We are providing best home cooked food delivery service.</h2>
+  <p>Choose from a selection of our delicious home cooked dishes</p>
+  <video id="foodVideo" width="320" height="240" controls poster="https://sdmntprwestus.oaiusercontent.com/files/00000000-9578-6230-9678-33d8b2e7cdbc/raw?se=2025-06-30T10%3A51%3A22Z&sp=r&sv=2024-08-04&sr=b&scid=e9d3ead6-79f2-5e69-92dc-34d26364a06d&skoid=e9d2f8b1-028a-4cff-8eb1-d0e66fbefcca&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-29T18%3A53%3A12Z&ske=2025-06-30T18%3A53%3A12Z&sks=b&skv=2024-08-04&sig=9%2BMvdTkVmnpZLMjdB4i3pWbfIx7Rl3KkQFZ3lHcYEAU%3D">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
+<section class="contact-section">
+  <form>
+    <h3>Do you have a question or want to become a seller?</h3>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <div class="rider-img">
+    <img src="https://m.media-amazon.com/images/I/81ljeABM7nL.png" alt="Delivery">
+  </div>
+</section>
+
+<footer>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="socials">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Insta"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+  </div>
+</footer>
+
+
+  <footer>
+    <p>© 2025 Foodie Spot. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
